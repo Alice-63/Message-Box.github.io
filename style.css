@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+body{
+height: 100vh;
+margin: 0;  
+font-family: "Segoe UI";
+background: rgb(16,16,17);
+background: linear-gradient(90deg, rgba(16,16,17,0.9836309523809523) 0%, rgba(59,55,64,1) 49%, rgba(14,14,14,1) 100%);
+}
+
+
+#message
+{
+    width: 400px;
+    height: 130px;
+    background-color: #22daacc7;
+    color: white;
+    font-size:25px ;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    position:absolute;
+    left: 68vw;
+    top:73vh;
+    overflow:hidden;
+    box-shadow: -1px 1px 14px 0px #000000;
+}
+
+#message h2
+{
+    color: #4c00ff;
+}
